@@ -1,0 +1,96 @@
+/* Background & Full-Page Centering */
+.login-page {
+    position: fixed; /* Ensures it covers the whole screen */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Glassmorphic Login Box */
+  .login-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle */
+  .subtitle {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Google Sign-In Button */
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-width: 100%;
+    background: white;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .google-btn:hover {
+    background: #f1f1f1;
+    transform: scale(1.05);
+  }
+  
+  .google-icon {
+    width: 40px;
+    height: 30px;
+  }
+  
+  /* Quote */
+  .quote {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  /* Terms & Privacy */
+  .terms {
+    font-size: 18px;
+    color: #ddd;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+  
+  .link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: #ffd700;
+  }
+  
