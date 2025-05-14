@@ -47,7 +47,7 @@ const Home = ({ isAuth }) => {
     try {
       if (!mediaUrl) return;
       const publicId = mediaUrl.split("/").pop().split(".")[0];
-      await axios.post(`yourlink`, {
+      await axios.post(`https://api.cloudinary.com/v1_1/deldsgngj/delete_by_token`, {
         public_id: publicId,
       });
     } catch (error) {
