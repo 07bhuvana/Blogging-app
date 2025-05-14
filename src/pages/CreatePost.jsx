@@ -87,7 +87,7 @@ const CreatePost = ({ isAuth }) => {
 
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      xhr.open("POST", "yourlink");
+      xhr.open("POST", "https://api.cloudinary.com/v1_1/deldsgngj/upload");
 
       xhr.upload.onprogress = (event) => {
         if (event.lengthComputable) {
