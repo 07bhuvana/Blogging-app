@@ -4,15 +4,14 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage"; // Import Firebase Storage
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC2i49gavioG_h0UZYxvQLcM4aEY0kv2go",
-  authDomain: "blogapp-3fbe5.firebaseapp.com",
-  projectId: "blogapp-3fbe5",
-  storageBucket: "blogapp-3fbe5.appspot.com", // ✅ FIXED
-  messagingSenderId: "425480194955",
-  appId: "1:425480194955:web:eff2b300c6fd4ef035bd8e",
-  measurementId: "G-E7FPSCN63X"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "your-project-id.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project-id.appspot.com",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "G-YOUR_MEASUREMENT_ID" // optional
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
